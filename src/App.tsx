@@ -6,7 +6,7 @@ import { Footer } from "./components/Layout/Footer";
 import { PokemonModal } from "./components/PokemonModal";
 import { Pokemon } from "./types/Pokemon";
 import { fetchPokemonList } from "./api/fetchPokemonList";
-import 'index.css'
+import './index.css'
 import { useRecoilState } from 'recoil';
 import { modalState } from "./atoms/modalAtoms";
 import { disabledButtonState, errorState, loadingState, pageState, pokemonAmountState, showPaginationState } from "./atoms/searchBarAtoms";
